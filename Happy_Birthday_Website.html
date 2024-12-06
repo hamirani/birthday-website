@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffbea;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #ffeb3b;
+            color: #333;
+            padding: 20px 10px;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .message {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .hearts {
+            font-size: 2em;
+            color: #ff4081;
+            margin: 10px 0;
+        }
+        .gallery img {
+            width: 150px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 1em;
+            color: #555;
+        }
+        .surprise-btn {
+            background-color: #ffc107;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .surprise-btn:hover {
+            background-color: #ff9800;
+        }
+    </style>
+</head>
+<body>
+    <header>Happy Birthday, My Love! 🎉</header>
+    <main>
+        <div class="message">
+            Here's a little digital surprise, just for you! 💛
+        </div>
+        <div class="hearts">💕💕💕</div>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/150?text=Memory+1" alt="Memory 1">
+            <img src="https://via.placeholder.com/150?text=Memory+2" alt="Memory 2">
+            <img src="https://via.placeholder.com/150?text=Memory+3" alt="Memory 3">
+        </div>
+        <button class="surprise-btn" onclick="showSurprise()">Click for a Surprise!</button>
+        <div id="surprise" style="display: none; margin-top: 20px; font-size: 1.2em; color: #333;">
+            You are the light of my life, and I’m so lucky to have you. 💛
+        </div>
+    </main>
+    <footer class="footer">
+        Made with love by Amanda 🌼
+    </footer>
+    <script>
+        function showSurprise() {
+            document.getElementById('surprise').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
